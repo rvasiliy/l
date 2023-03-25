@@ -1,14 +1,14 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "useWorkspaces": true,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "npmClient": "npm",
   "command": {
     "version": {
       "allowBranch": "release/*",
-      "noGitTagVersion": true,
-      "noCommitHooks": true,
-      "noPush": true
+      "gitTagVersion": false,
+      "commitHooks": false,
+      "push": false
     }
   }
 }
