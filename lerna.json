@@ -1,11 +1,11 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "useWorkspaces": true,
-  "version": "0.1.1",
+  "version": "0.2.0",
   "npmClient": "npm",
   "command": {
     "version": {
-      "allowBranch": "master",
+      "allowBranch": "release/*",
       "noGitTagVersion": true,
       "noCommitHooks": true,
       "noPush": true
