@@ -6,9 +6,9 @@
   "command": {
     "version": {
       "allowBranch": "release/*",
-      "noGitTagVersion": true,
-      "noCommitHooks": true,
-      "noPush": true
+      "gitTagVersion": false,
+      "commitHooks": false,
+      "push": false
     }
   }
 }
