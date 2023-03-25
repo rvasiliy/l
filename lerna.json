@@ -6,6 +6,8 @@
   "command": {
     "version": {
       "allowBranch": "master",
+      "noGitTagVersion": true,
+      "noCommitHooks": true,
       "noPush": true
     }
   }
