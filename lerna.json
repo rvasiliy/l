@@ -5,7 +5,7 @@
   "npmClient": "npm",
   "command": {
     "version": {
-      "allowBranch": "master",
+      "allowBranch": "release/*",
       "noGitTagVersion": true,
       "noCommitHooks": true,
       "noPush": true
