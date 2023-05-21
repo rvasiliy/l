@@ -1,9 +1,9 @@
 {
   "name": "@local/a",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c"
   },
